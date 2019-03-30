@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint \"src/**/*.js\"",
-    "lint:fix": "prettier-eslint \"src/**/*.js\" --write"
+    "lint:fix": "prettier-eslint \"src/**/*.js\" --write",
+    "prebuild": "rm -rf dist",
+    "build": ""
   },
   "husky": {
     "hooks": {
